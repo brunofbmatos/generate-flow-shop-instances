@@ -1,0 +1,35 @@
+Subject: flowshop1.txt
+
+This file contains a set of 31 FSP test instances.
+
+These instances were contributed to OR-Library by
+Dirk C. Mattfeld (email dirk@uni-bremen.de) and 
+Rob J.M. Vaessens (email robv@win.tue.nl).
+ 
+o car1-car8 are from 
+   J. Carlier (1978),
+   Ordonnancements a contraintes disjonctives,
+   R.A.I.R.O. Recherche operationelle/Operations Research 12, 333-351. 
+o hel1-hel2 are from 
+   J. Heller (1960),
+   Some numerical experiments for an MxJ flow shop and its decision-
+   theoretical aspects,
+   Operations Research 8, 178-184.
+o reC01-reC42 are from 
+   C.R. Reeves (1995),
+   A genetic algorithm for flowshop sequencing,
+   Computer Ops Res 22, 5-13.
+   (Only odd-numbered instances are given, since the even-numbered instances 
+   are obtained from the previous instance by just reversing the processing
+   order of each job; the optimal value of each odd-numbered instance and 
+   its even-numbered counterpart is the same.)
+ 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Each instance consists of a line of description, a line containing the 
+number of jobs and the number of machines, and then one line for each job,
+listing the machine number and processing time for each step of the job. 
+The machines are numbered starting with 0.
+ 
+
+ +++++++++++++++++++++++++++++
