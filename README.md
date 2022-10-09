@@ -8,15 +8,17 @@
  Rob J.M. Vaessens, Eindhoven University of Technology <robv@win.tue.nl
  Last update : 2/7/1996.
 
- UNIX compile: cc -o fsp_gen fsp_gen.c -lm
+    UNIX compile: cc -o fsp_gen fsp_gen.c -lm
 
- Tested on the machines/systems/compilers listed below.
- DEC 5000    Ultrix 4.2    cc
- SUN 10      Solaris 2     cc
- IBM 6000    AIX 3.x       xlc
- Atari ST    TOS           pure c
- IBM-PC      DOS 6.2       MS-C 
- IBM-PC      Linux         gcc 
+Tested on the machines/systems/compilers listed in the table below:
+| Machines |      Systems  |  Compilers |
+|----------|:-------------:|-----------:|
+| DEC 5000 |   Ultrix 4.2  |  cc        |
+| SUN 10   |   Solaris 2   |  cc        |
+| IBM 6000 |   AIX 3.x     |  xlc       |
+| Atari ST |   TOS         |  pure c    |
+| IBM-PC   |   DOS 6.2     |  MS-C      |
+| IBM-PC   |   Linux       |  gcc       |
 
  Care should be taken on 64 bit machines (e.g. Cray). There, 
  'long' and 'double' contain 128 bit. In this case replace all 
